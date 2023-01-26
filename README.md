@@ -1,4 +1,4 @@
-Install all the dependencies of the project
+Install all the dependencies for webSocket
 
 ### `cd ws`
 ### `npm install`
