@@ -1,0 +1,50 @@
+html, body, .container{
+height: 100% !important;
+}
+
+.action-btn{
+    margin: 20px;
+}
+
+#btn2 {
+    background: url(./img/btn_img4.jpg) center center no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    border-left: solid 2px #d9d9d9 !important;
+    border-radius: 0px;
+
+}
+/* #btn2:active {
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+} */
+#btn2:disabled,
+#btn2[disabled] {
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+#btn1 {
+    background: url(./img/btn_img1.jpg) center center no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    border-right: solid 2px #d9d9d9 !important;
+    border-radius: 0px;
+}
+
+#btn1:disabled,
+#btn1[disabled] {
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(0.97, 0.97);
+    }
+    50% {
+      transform: scale(1, 1);
+    }
+    100% {
+      transform: scale(0.97, 0.97);
+    }
+  }
